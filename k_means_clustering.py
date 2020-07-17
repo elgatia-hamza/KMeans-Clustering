@@ -38,7 +38,7 @@ plt.scatter(X[y_clusters == 0, 0], X[y_clusters == 0, 1], color='red', label = '
 plt.scatter(X[y_clusters == 1, 0], X[y_clusters == 1, 1], color='blue', label = 'Standard')
 plt.scatter(X[y_clusters == 2, 0], X[y_clusters == 2, 1], color='green', label = '>>> Target <<<')
 plt.scatter(X[y_clusters == 3, 0], X[y_clusters == 3, 1], color='orange', label = 'average')
-plt.scatter(X[y_clusters == 4, 0], X[y_clusters == 4, 1], color='yellow', label = 'Carefall')
+plt.scatter(X[y_clusters == 4, 0], X[y_clusters == 4, 1], color='yellow', label = 'Careful')
 plt.title('Clusters of customers')
 plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score')
